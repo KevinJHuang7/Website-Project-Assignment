@@ -1,0 +1,112 @@
+.Title {
+	width: 100%;
+	color: Aqua;
+	background-color: DeepSkyBlue;
+	margin-bottom: 0px;
+	padding: 3px;
+	text-align: center;
+	border-right: 6px solid PaleTurquoise;
+	border-left: 6px solid PaleTurquoise;
+	border-bottom-style: solid;
+	border-bottom-width: 30px;
+	border-bottom-color: 6px solid PaleTurquoise;
+}
+
+h1 {
+    font-size: 85px;
+		margin: 5px;
+		border: 5px solid Steelblue;
+
+}
+
+h2{
+  background-color: lightblue;
+  color: Blue;
+	border-style: solid;
+	border-width: 3px;
+	border-left-width: 10px;
+	border-right-width: 10px;
+	border-color: Dodgerblue;
+	border-bottom-width: 10px;
+	border-bottom-color: 6px solid PaleTurquoise;
+	margin: 5px;
+}
+
+#gyminfo {
+  font-family: Georgia;
+	font-size: 20px;
+}
+
+#gym_info {
+  text-align: justify;
+  margin-bottom: 2%;
+}
+
+p.serif {
+		font-size: 10px;
+}
+
+p.courier {
+	color :black;
+}
+
+p {
+	font-size: 18px;
+}
+
+div {
+  color: black;
+}
+
+body {
+background-color: lightcyan;
+color: Black;
+}
+
+.Gymsharkimg {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+	position: center;
+	bottom: 100px;
+	margin-right: 650px;
+	margin-left: 650px;
+	background-color: lightcyan;
+}
+
+ul.list {
+    list-style-type: square;
+}
+
+ol.num {
+    list-style-type: upper-roman;
+}
+
+table, td {
+    border: 5px solid Dodgerblue;
+    text-align: left;
+		border-collapse: collapse;
+    width: 25%;
+}
+
+#divlogo {
+	width: 400px;
+	height: 400px;
+	padding: 40px;
+	border: 10px solid Black;
+}
+
+
+#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8, #div9 {
+	background-color: skyblue;
+}
+
+#map{
+	height:550px;
+	width:100%;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

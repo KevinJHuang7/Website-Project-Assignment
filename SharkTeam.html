@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
+  <script src = "javascript.js"> </script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG7IJEz0igpakH-qNPSegT11BZ8lwgu0U&callback=initMap">
+    </script>
+
+  <title> Come to the Gym </title>
+
+</head>
+
+<body>
+
+  <div class = Title>
+		<h1> <strong> Gym Shark </strong>  </h1>
+	</div>
+
+  <br> <br> <br>
+
+  <div class = Gymsharkimg>
+    <img src = "Gymsharkpicture.jpg" height = "475">
+  </div>
+
+  <br> <br>
+
+	<div id = "gyminfo">
+    <p id = "gym_info">
+			<li> <a href = "#About Gym Shark"> About Gym Shark</a> </li>
+			<li> <a href = "#Trainers"> Trainers</a> </li>
+			<li> <a href = "#Sample Trainer Plan"> Sample Trainer Plan </a> </li>
+      <li> <a href = "#Join now"> Join now </a> </li>
+      <li> <a href = "#Location of Gym Shark"> Location of Gym Shark </a> </li>
+      <li> <a href = "#Deals"> Deals </a> </li>
+      <li> <a href = "#Gym Shark Sign up"> Gym Shark Sign up </a> </li>
+      <li> <a href = "#Feedback"> Feedback </a> </li>
+    </p>
+	</div>
+
+  <br> <br>
+
+  <p> When you are a member of Gym Shark you are a part of </p>
+  <div id = "result"> </div>
+  <button onclick="store()" type="button"> Click to find out what you are a part of </button>
+
+    <br> <br>
+
+	   <div id = div1>
+      <br> <br>
+
+			<h2 id = "About Gym Shark"> <b> About Gym Shark </b> </h2>
+			<p class = "serif"> <font size = 4> Gym Shark is a gym that is made for everyone and anyone to come and and workout. <br>
+       We are a gym that do not judge as we are all here to have a good workout and get fit. <br>
+       This gym provides many equipments from free-weights, smith-machines, cardio machines, and many more.  If you are new to this gym, we have guest passes. <br>
+       Walk on in and come out a GYM SHARK </font> </p>
+
+       <p>  If you don't like the background color, we have another option </p>
+
+       <button type = "button" onclick = "divcolor();"> Click to change </button>
+
+
+	</div>
+
+<br>
+
+	<div id = div2>
+			<h2 id = "Trainers"> <b> Trainers  </b> </h2>
+			<p class="sansserif"> In case this is your first time in Gym Shark we have trainers that will guide you through the process. <br>
+			Trainers will give you nutrition plans and workout routines.  Soon you will get use to working out in Gym Shark. <br>
+       All of our Trainers are certified and have knowledge of personal training. </p>
+
+       <br>
+
+       <p class="sansserif"> Here are some Trainers that you can select to help you train in Gym Shark. <br>
+         To select more than one trainer hold the Ctrl or Shift button and click the Trainers that you want. </p>
+       <select name = "Trainers names" multiple>
+         <option value = "Bryant"> Bryant </option>
+         <option value = "Megan"> Megan </option>
+         <option value = "Selena"> Selena </option>
+         <option value = "Jack"> Jack </option>
+       </select>
+
+       <p>  If you don't like the background color, we have more options of color you can choose from. </p> <br>
+
+       <button type = "button" onclick = "divcoloroption1();"> Option 1 - Lightgrey </button> <br> <br>
+       <button type = "button" onclick = "divcoloroption2();"> Option 2 - Aquamarine </button> <br> <br>
+       <button type = "button" onclick = "divcoloroption3();"> Option 3 - RoyalBlue </button>
+
+   </div>
+
+<br> <br> <br>
+
+      <div id = div3>
+			<h2 id = "Sample Trainer Plan"> <b> Sample Trainer Plan </b> </h2>
+
+      <p>
+			<table>
+    	<tr>
+        	<td> <font size="4"> Monday:  Sholders and Biceps </font> </td>
+    	</tr>
+
+			<tr>
+        	<td> <font size="4"> Tuesday:  Chest and Triceps </font> </td>
+    	</tr>
+
+			<tr>
+        	<td> <font size="4"> Wednesday:  Back and Forearms </font> </td>
+    	</tr>
+
+			<tr>
+					<td> <font size="4"> Thursday:  Sholders and Biceps </font> </td>
+			</tr>
+
+			<tr>
+        	<td> <font size="4"> Friday:  Chest and Triceps </font> </td>
+    	</tr>
+
+			<tr>
+        	<td> <font size="4"> Saturday:  Legs, Core and Abs </font> </td>
+    	</tr>
+
+			<tr>
+        	<td> <font size="4"> Sunday:  Rest Day (NO WORKOUT PLAN) </font> </td>
+    	</tr>
+
+			</table>
+    </p>
+
+	</div>
+
+<br> <br> <br>
+
+    <div id = div4>
+			<h2 id = "Join now"><b> Join now </b> </h2>
+      <p class = "Gerogia">  Why you should come to Gym Shark </font>
+			<ul class = "list">
+    		<li> <font size="4"> To Get Stronger </font> </li>
+    		<li> <font size="4">
+        		Best Gym trainers in all of Brooklyn
+        		<ol class = "num">
+            	<li> <font size="4"> Diet plans </font> </li>
+            	<li> <font size="4"> Workout Routines </font>  </li>
+            	<li> <font size="4"> No charges for Gym trainers because it is free when you go to Gym Shark </font>  </li>
+        		</ol>
+    	</li> </font>
+    	<li> <font size="4"> To maintain a healthy lifestyle and meet new "Gym Sharks" </font> </li>
+			</ul>
+      </p>
+	</div>
+
+<br> <br> <br>
+
+<div id = div5>
+  <div>
+    <h2 id = "Location of Gym Shark"> <p class = "Lucida Console"> Location of Gym Shark</p> </h2>
+    <p> In case you do not know where we are located, here is a map on where to find our gym </p> <br>
+    </div>
+</div>
+
+<br>
+
+    <div id = "map"> </div>
+
+<br> <br>
+
+  <div id = div6>
+  <p> Here is the location of where you are now and how far you are from the gym  </p> <br>
+  <button type = "button" onclick = "getLocation()"> Click to find your location </button> </li>
+  <p id = "location"> </p>
+
+  <br>
+
+  <p> Now that you know where you are and where our gym is, come on down to Gym Shark </p> <br>
+  <audio controls>
+    <source src="Rockytheme.ogg" type = "audio/ogg">
+    <source src="Rockytheme.mp3" type = "audio/mpeg">
+      Your browser does not support the audio element.
+  </audio>
+  </div>
+
+
+  <br> <br> <br>
+
+<div id = div7>
+  <div>
+      <h2 id = Deals> <b> Deals <b> </h2> <br>
+
+      <p> These are the deals that are being offered now.  </p> <br>
+      <select>
+        <option value = "Deal 1: $100 for one year"> Deal 1: $100 for one year </option>
+        <option value = "Deal 2: $60 for 5 months"> Deal 2: $60 for 5 months </option>
+        <option value = "Deal 3: $30 for 2 months"> Deal 3: $30 for 2 months </option>
+      </select>
+
+  </div>
+
+  <br> <br>
+
+  <div>
+      <p id = "Announce"> We have many deals in gym shark so you can have many choice on the deal that you want. <br>
+       However, these deals would be coming soon. </p>
+
+      <button type="button" onclick='document.getElementById("Announce").innerHTML =  "To be Announced!"'> Click for more info! </button>
+
+    </div>
+</div>
+
+  <br> <br> <br>
+
+  <div id = div8>
+  <h2 id = "Gym Shark Sign up"> <strong> Gym Shark Sign up </strong> </h2> <br>
+	<form action>
+  	<p> First name: </p> <br>
+  	<input type = "firstname" id = "yourfirstname" value = "First name">
+  	<br> <br>
+  	<p> Last name: </p> <br>
+  	<input type = "lastname" id = "yourlastname" value = "Last name">
+  	<br> <br>
+  	<p> Date: </p> <br>
+  	<input type="date" id = "yourdate" value = "01-01-1997">
+  	<br> <br>
+  	<p> Email: </p> <br>
+  	<input type="email" id = "youremail" value = "Youremail@example.com">
+  	<br> <br>
+  	<p> Telephone: </p> <br>
+  	<input type = "telephone" id = "yourtelephone" value = "XXX - XXX - XXXX">
+  	<br> <br>
+    <p> What deal will you select?: </p> <br>
+    <input type="radio" name= "deal" value= "$100 for one year" checked> <font size="4"> $100 for one year </font><br>
+    <input type="radio" name= "deal" value= "$60 for 5 months"> <font size="4"> $60 for 5 months </font> <br>
+    <input type="radio" name= "deal" value= "$30 for 2 months"> <font size="4"> $30 for 2 months </font>
+  	<br> <br>
+    <p> Please create a password to secure the information: </p>
+    <label>
+    <p> Password : </p>
+      <input name = "password" id = "password" type = "password" value = "password" onkeyup ='checkpass();' />
+    </label>
+
+    <br>
+
+    <label>
+    <p>  Confirm password: </p>
+      <input type = "password" name = "confirm_password" id = "confirm_password" value = "confirm password" onkeyup = 'checkpass();' />
+      <span id ='message'> </span>
+    </label>
+
+    <br> <br> <br>
+
+    <input type = "submit" value = "Submit">
+
+	</form>
+</div>
+
+
+  <br> <br> <br>
+<div id = div9>
+  <div>
+  <h2 id = "Feedback"><b> Feedback </b> </h2> <br>
+  <p>  Gym Shark is upgrading our logo and as our loyal customers we want you to decide what out new logo should be. <br>
+      Drag one of our two images displayed in our box to decide what our new logo should be. </p>
+      <div id = "divlogo" ondrop = "drop(event)" ondragover = "allowDrop(event)"> </div>
+      <br>
+      <img id = "draglogo1" src = "gymsharklogo1.jpg" draggable = "true" ondragstart = "drag(event)" width = "400" height = "400">
+      <img id = "draglogo2" src = "gymsharklogo2.jpg" draggable = "true" ondragstart = "drag(event)" width = "400" height = "400">
+
+  <br> <br>
+
+  <p> On a Scale of 0 to 5, how good is Gym Shark? (0 as lowest, 5 as highest) </p>
+  <input type = "number" id = "myNumber" min = "0" max = "5"> <br> <br>
+  <button onclick = "getnumber()"> Submit </button>
+  <p>  Gym Rating: </font> </p> <p id = "thenumber"> <font size = "10"> </font> </p>
+  <br>
+  <p> Rate our website  </p>
+  <input type="range" id = "yourrange" value = "50"> <br> <br>
+  <button onclick = "getrange()"> Submit </button>
+  <p> Website Rating: </p> <p id = "therange"> </p>
+  <br>
+
+	</div>
+
+  <br>
+
+  <div>
+    <p> Describe our gym using one word </p>
+    <form name = "form1" method = "post">
+      <input name = "instring" type = "text" value = "Enter one word to describe our gym" size = "30">
+      <input type = "button" name = "Convert" value = "ONE WORD >> " onClick = "turntoupper();">
+      <input name = "outstring" type = "text" value = " " size = "30">
+    </form>
+  </div>
+
+  <br> <br>
+
+  <div>
+  <form>
+  <p> Our customers are very important and we want to make sure our Gym statisfies you. <br>
+    If there are any questions, problems, or concerns please let us know in the bottom of the text box. </p> <br>
+
+    <textarea name = "description" rows = "15" cols = "100" onkeyup = "countword(this);" maxlength = "1000"> </textarea>
+    <span class = "text-muted pull-right" id = "counting"> 0 </span>
+    <p> Just in case you don't know we count how many words you enter in order to make our gym better.  The 0 that is above this text will increase as more words are entered. </p> <br>
+
+    <input type = "submit" value = "Submit">
+
+  </form>
+  </div>
+
+  <br> <br> <br> <br>
+
+
+</div>
+
+
+
+</body>
+</html>
